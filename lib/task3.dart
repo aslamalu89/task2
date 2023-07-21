@@ -10,9 +10,6 @@ void main(){
   var email = stdin.readLineSync();
   var c ={"email":email};
   print(c);
-  print("enter address:");
-  var address = stdin.readLineSync();
-  var e ={"address":address};
-  list1.addAll([b, c,e]);
+  list1.addAll([b, c,]);
   print(list1);
 }
